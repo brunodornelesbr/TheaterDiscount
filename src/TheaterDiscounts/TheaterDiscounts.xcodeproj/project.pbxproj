@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0301402389B1C6002AA163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03013F2389B1C6002AA163 /* AppDelegate.swift */; };
+		9A0301422389B1C6002AA163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301412389B1C6002AA163 /* SceneDelegate.swift */; };
+		9A0301442389B1C6002AA163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301432389B1C6002AA163 /* ViewController.swift */; };
+		9A0301472389B1C6002AA163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0301452389B1C6002AA163 /* Main.storyboard */; };
+		9A0301492389B1C7002AA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0301482389B1C7002AA163 /* Assets.xcassets */; };
+		9A03014C2389B1C7002AA163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A03014A2389B1C7002AA163 /* LaunchScreen.storyboard */; };
+		9A0301572389B1C7002AA163 /* TheaterDiscountsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */; };
+		9A0301622389B1C8002AA163 /* TheaterDiscountsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0301532389B1C7002AA163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0301342389B1C6002AA163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A03013B2389B1C6002AA163;
+			remoteInfo = TheaterDiscounts;
+		};
+		9A03015E2389B1C8002AA163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0301342389B1C6002AA163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A03013B2389B1C6002AA163;
+			remoteInfo = TheaterDiscounts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A03013C2389B1C6002AA163 /* TheaterDiscounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterDiscounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A03013F2389B1C6002AA163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A0301412389B1C6002AA163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A0301432389B1C6002AA163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A0301462389B1C6002AA163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0301482389B1C7002AA163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A03014B2389B1C7002AA163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A03014D2389B1C7002AA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0301522389B1C7002AA163 /* TheaterDiscountsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterDiscountsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterDiscountsTests.swift; sourceTree = "<group>"; };
+		9A0301582389B1C7002AA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A03015D2389B1C8002AA163 /* TheaterDiscountsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterDiscountsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterDiscountsUITests.swift; sourceTree = "<group>"; };
+		9A0301632389B1C8002AA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0301392389B1C6002AA163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03014F2389B1C7002AA163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03015A2389B1C8002AA163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0301332389B1C6002AA163 = {
+			isa = PBXGroup;
+			children = (
+				9A03013E2389B1C6002AA163 /* TheaterDiscounts */,
+				9A0301552389B1C7002AA163 /* TheaterDiscountsTests */,
+				9A0301602389B1C8002AA163 /* TheaterDiscountsUITests */,
+				9A03013D2389B1C6002AA163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A03013D2389B1C6002AA163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A03013C2389B1C6002AA163 /* TheaterDiscounts.app */,
+				9A0301522389B1C7002AA163 /* TheaterDiscountsTests.xctest */,
+				9A03015D2389B1C8002AA163 /* TheaterDiscountsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A03013E2389B1C6002AA163 /* TheaterDiscounts */ = {
+			isa = PBXGroup;
+			children = (
+				9A03013F2389B1C6002AA163 /* AppDelegate.swift */,
+				9A0301412389B1C6002AA163 /* SceneDelegate.swift */,
+				9A0301432389B1C6002AA163 /* ViewController.swift */,
+				9A0301452389B1C6002AA163 /* Main.storyboard */,
+				9A0301482389B1C7002AA163 /* Assets.xcassets */,
+				9A03014A2389B1C7002AA163 /* LaunchScreen.storyboard */,
+				9A03014D2389B1C7002AA163 /* Info.plist */,
+			);
+			path = TheaterDiscounts;
+			sourceTree = "<group>";
+		};
+		9A0301552389B1C7002AA163 /* TheaterDiscountsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */,
+				9A0301582389B1C7002AA163 /* Info.plist */,
+			);
+			path = TheaterDiscountsTests;
+			sourceTree = "<group>";
+		};
+		9A0301602389B1C8002AA163 /* TheaterDiscountsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */,
+				9A0301632389B1C8002AA163 /* Info.plist */,
+			);
+			path = TheaterDiscountsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A03013B2389B1C6002AA163 /* TheaterDiscounts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0301662389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscounts" */;
+			buildPhases = (
+				9A0301382389B1C6002AA163 /* Sources */,
+				9A0301392389B1C6002AA163 /* Frameworks */,
+				9A03013A2389B1C6002AA163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheaterDiscounts;
+			productName = TheaterDiscounts;
+			productReference = 9A03013C2389B1C6002AA163 /* TheaterDiscounts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0301512389B1C7002AA163 /* TheaterDiscountsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0301692389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscountsTests" */;
+			buildPhases = (
+				9A03014E2389B1C7002AA163 /* Sources */,
+				9A03014F2389B1C7002AA163 /* Frameworks */,
+				9A0301502389B1C7002AA163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0301542389B1C7002AA163 /* PBXTargetDependency */,
+			);
+			name = TheaterDiscountsTests;
+			productName = TheaterDiscountsTests;
+			productReference = 9A0301522389B1C7002AA163 /* TheaterDiscountsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A03015C2389B1C8002AA163 /* TheaterDiscountsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A03016C2389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscountsUITests" */;
+			buildPhases = (
+				9A0301592389B1C8002AA163 /* Sources */,
+				9A03015A2389B1C8002AA163 /* Frameworks */,
+				9A03015B2389B1C8002AA163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A03015F2389B1C8002AA163 /* PBXTargetDependency */,
+			);
+			name = TheaterDiscountsUITests;
+			productName = TheaterDiscountsUITests;
+			productReference = 9A03015D2389B1C8002AA163 /* TheaterDiscountsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0301342389B1C6002AA163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Bruno Dorneles";
+				TargetAttributes = {
+					9A03013B2389B1C6002AA163 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					9A0301512389B1C7002AA163 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9A03013B2389B1C6002AA163;
+					};
+					9A03015C2389B1C8002AA163 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9A03013B2389B1C6002AA163;
+					};
+				};
+			};
+			buildConfigurationList = 9A0301372389B1C6002AA163 /* Build configuration list for PBXProject "TheaterDiscounts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0301332389B1C6002AA163;
+			productRefGroup = 9A03013D2389B1C6002AA163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A03013B2389B1C6002AA163 /* TheaterDiscounts */,
+				9A0301512389B1C7002AA163 /* TheaterDiscountsTests */,
+				9A03015C2389B1C8002AA163 /* TheaterDiscountsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A03013A2389B1C6002AA163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A03014C2389B1C7002AA163 /* LaunchScreen.storyboard in Resources */,
+				9A0301492389B1C7002AA163 /* Assets.xcassets in Resources */,
+				9A0301472389B1C6002AA163 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0301502389B1C7002AA163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03015B2389B1C8002AA163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0301382389B1C6002AA163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0301442389B1C6002AA163 /* ViewController.swift in Sources */,
+				9A0301402389B1C6002AA163 /* AppDelegate.swift in Sources */,
+				9A0301422389B1C6002AA163 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03014E2389B1C7002AA163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0301572389B1C7002AA163 /* TheaterDiscountsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0301592389B1C8002AA163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0301622389B1C8002AA163 /* TheaterDiscountsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0301542389B1C7002AA163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A03013B2389B1C6002AA163 /* TheaterDiscounts */;
+			targetProxy = 9A0301532389B1C7002AA163 /* PBXContainerItemProxy */;
+		};
+		9A03015F2389B1C8002AA163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A03013B2389B1C6002AA163 /* TheaterDiscounts */;
+			targetProxy = 9A03015E2389B1C8002AA163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A0301452389B1C6002AA163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0301462389B1C6002AA163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A03014A2389B1C7002AA163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A03014B2389B1C7002AA163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0301642389B1C8002AA163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A0301652389B1C8002AA163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0301672389B1C8002AA163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536GDVGJ68;
+				INFOPLIST_FILE = TheaterDiscounts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BrunoDorneles.TheaterDiscounts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A0301682389B1C8002AA163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536GDVGJ68;
+				INFOPLIST_FILE = TheaterDiscounts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BrunoDorneles.TheaterDiscounts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A03016A2389B1C8002AA163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536GDVGJ68;
+				INFOPLIST_FILE = TheaterDiscountsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BrunoDorneles.TheaterDiscountsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheaterDiscounts.app/TheaterDiscounts";
+			};
+			name = Debug;
+		};
+		9A03016B2389B1C8002AA163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536GDVGJ68;
+				INFOPLIST_FILE = TheaterDiscountsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BrunoDorneles.TheaterDiscountsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheaterDiscounts.app/TheaterDiscounts";
+			};
+			name = Release;
+		};
+		9A03016D2389B1C8002AA163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536GDVGJ68;
+				INFOPLIST_FILE = TheaterDiscountsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BrunoDorneles.TheaterDiscountsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheaterDiscounts;
+			};
+			name = Debug;
+		};
+		9A03016E2389B1C8002AA163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536GDVGJ68;
+				INFOPLIST_FILE = TheaterDiscountsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BrunoDorneles.TheaterDiscountsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheaterDiscounts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0301372389B1C6002AA163 /* Build configuration list for PBXProject "TheaterDiscounts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0301642389B1C8002AA163 /* Debug */,
+				9A0301652389B1C8002AA163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0301662389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscounts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0301672389B1C8002AA163 /* Debug */,
+				9A0301682389B1C8002AA163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0301692389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscountsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A03016A2389B1C8002AA163 /* Debug */,
+				9A03016B2389B1C8002AA163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A03016C2389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscountsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A03016D2389B1C8002AA163 /* Debug */,
+				9A03016E2389B1C8002AA163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0301342389B1C6002AA163 /* Project object */;
+}
