@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356A7C58CB763A644556EE75 /* Pods_TheaterDiscounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E66B456926471834075A09 /* Pods_TheaterDiscounts.framework */; };
+		4B621A8464E211411037509D /* Pods_TheaterDiscountsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE00ABD0FEB566526D52F32 /* Pods_TheaterDiscountsTests.framework */; };
+		7D4F05D5AA9F69AA4774F93E /* Pods_TheaterDiscounts_TheaterDiscountsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E19EB787980A646742D2F0C /* Pods_TheaterDiscounts_TheaterDiscountsUITests.framework */; };
 		9A0301402389B1C6002AA163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03013F2389B1C6002AA163 /* AppDelegate.swift */; };
 		9A0301422389B1C6002AA163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301412389B1C6002AA163 /* SceneDelegate.swift */; };
 		9A0301442389B1C6002AA163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301432389B1C6002AA163 /* ViewController.swift */; };
@@ -15,6 +18,14 @@
 		9A03014C2389B1C7002AA163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A03014A2389B1C7002AA163 /* LaunchScreen.storyboard */; };
 		9A0301572389B1C7002AA163 /* TheaterDiscountsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */; };
 		9A0301622389B1C8002AA163 /* TheaterDiscountsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */; };
+		9A5895F5238C093A006D95DE /* discount.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A5895F4238C093A006D95DE /* discount.json */; };
+		9A5895F7238C1CEE006D95DE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895F6238C1CEE006D95DE /* Student.swift */; };
+		9A5895F9238C1D23006D95DE /* Elder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895F8238C1D23006D95DE /* Elder.swift */; };
+		9A5895FB238C1D31006D95DE /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895FA238C1D31006D95DE /* Child.swift */; };
+		9A5895FD238C1D48006D95DE /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895FC238C1D48006D95DE /* Client.swift */; };
+		9A589600238C1D75006D95DE /* DiscountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895FF238C1D75006D95DE /* DiscountManager.swift */; };
+		9A589602238C1DFE006D95DE /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A589601238C1DFE006D95DE /* WeekDay.swift */; };
+		9A589604238C1E29006D95DE /* DiscountFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A589603238C1E29006D95DE /* DiscountFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE00ABD0FEB566526D52F32 /* Pods_TheaterDiscountsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheaterDiscountsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE10275AE984A8D71842B0A /* Pods-TheaterDiscounts-TheaterDiscountsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscounts-TheaterDiscountsUITests.release.xcconfig"; path = "Target Support Files/Pods-TheaterDiscounts-TheaterDiscountsUITests/Pods-TheaterDiscounts-TheaterDiscountsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60F1626DF04271C88D5F54FE /* Pods-TheaterDiscountsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscountsTests.debug.xcconfig"; path = "Target Support Files/Pods-TheaterDiscountsTests/Pods-TheaterDiscountsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68C299C2CAF260D157F0839F /* Pods-TheaterDiscounts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscounts.release.xcconfig"; path = "Target Support Files/Pods-TheaterDiscounts/Pods-TheaterDiscounts.release.xcconfig"; sourceTree = "<group>"; };
+		6E19EB787980A646742D2F0C /* Pods_TheaterDiscounts_TheaterDiscountsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheaterDiscounts_TheaterDiscountsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		863FA6821E1A82FB0A968AC7 /* Pods-TheaterDiscountsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscountsTests.release.xcconfig"; path = "Target Support Files/Pods-TheaterDiscountsTests/Pods-TheaterDiscountsTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A03013C2389B1C6002AA163 /* TheaterDiscounts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterDiscounts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A03013F2389B1C6002AA163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A0301412389B1C6002AA163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,17 @@
 		9A03015D2389B1C8002AA163 /* TheaterDiscountsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterDiscountsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterDiscountsUITests.swift; sourceTree = "<group>"; };
 		9A0301632389B1C8002AA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5895F4238C093A006D95DE /* discount.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = discount.json; sourceTree = "<group>"; };
+		9A5895F6238C1CEE006D95DE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9A5895F8238C1D23006D95DE /* Elder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elder.swift; sourceTree = "<group>"; };
+		9A5895FA238C1D31006D95DE /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		9A5895FC238C1D48006D95DE /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		9A5895FF238C1D75006D95DE /* DiscountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountManager.swift; sourceTree = "<group>"; };
+		9A589601238C1DFE006D95DE /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		9A589603238C1E29006D95DE /* DiscountFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountFinder.swift; sourceTree = "<group>"; };
+		ABE179CA7D10F0EA59D746B7 /* Pods-TheaterDiscounts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscounts.debug.xcconfig"; path = "Target Support Files/Pods-TheaterDiscounts/Pods-TheaterDiscounts.debug.xcconfig"; sourceTree = "<group>"; };
+		C5E66B456926471834075A09 /* Pods_TheaterDiscounts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheaterDiscounts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8043BB94FAEE1F8ABB763C5 /* Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheaterDiscounts-TheaterDiscountsUITests/Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356A7C58CB763A644556EE75 /* Pods_TheaterDiscounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B621A8464E211411037509D /* Pods_TheaterDiscountsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4F05D5AA9F69AA4774F93E /* Pods_TheaterDiscounts_TheaterDiscountsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36BD7B41D3004AA2A72A48CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E66B456926471834075A09 /* Pods_TheaterDiscounts.framework */,
+				6E19EB787980A646742D2F0C /* Pods_TheaterDiscounts_TheaterDiscountsUITests.framework */,
+				1AE00ABD0FEB566526D52F32 /* Pods_TheaterDiscountsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A0301332389B1C6002AA163 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				9A0301552389B1C7002AA163 /* TheaterDiscountsTests */,
 				9A0301602389B1C8002AA163 /* TheaterDiscountsUITests */,
 				9A03013D2389B1C6002AA163 /* Products */,
+				CB2261C3E18C40BC8820025A /* Pods */,
+				36BD7B41D3004AA2A72A48CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +142,9 @@
 		9A03013E2389B1C6002AA163 /* TheaterDiscounts */ = {
 			isa = PBXGroup;
 			children = (
+				9A03016F2389B8C3002AA163 /* Models */,
 				9A03013F2389B1C6002AA163 /* AppDelegate.swift */,
+				9A5895F4238C093A006D95DE /* discount.json */,
 				9A0301412389B1C6002AA163 /* SceneDelegate.swift */,
 				9A0301432389B1C6002AA163 /* ViewController.swift */,
 				9A0301452389B1C6002AA163 /* Main.storyboard */,
@@ -128,6 +173,41 @@
 			path = TheaterDiscountsUITests;
 			sourceTree = "<group>";
 		};
+		9A03016F2389B8C3002AA163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A5895FE238C1D68006D95DE /* DiscountManager */,
+				9A5895F6238C1CEE006D95DE /* Student.swift */,
+				9A5895F8238C1D23006D95DE /* Elder.swift */,
+				9A5895FA238C1D31006D95DE /* Child.swift */,
+				9A5895FC238C1D48006D95DE /* Client.swift */,
+				9A589601238C1DFE006D95DE /* WeekDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A5895FE238C1D68006D95DE /* DiscountManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A5895FF238C1D75006D95DE /* DiscountManager.swift */,
+				9A589603238C1E29006D95DE /* DiscountFinder.swift */,
+			);
+			path = DiscountManager;
+			sourceTree = "<group>";
+		};
+		CB2261C3E18C40BC8820025A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE179CA7D10F0EA59D746B7 /* Pods-TheaterDiscounts.debug.xcconfig */,
+				68C299C2CAF260D157F0839F /* Pods-TheaterDiscounts.release.xcconfig */,
+				C8043BB94FAEE1F8ABB763C5 /* Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig */,
+				1FE10275AE984A8D71842B0A /* Pods-TheaterDiscounts-TheaterDiscountsUITests.release.xcconfig */,
+				60F1626DF04271C88D5F54FE /* Pods-TheaterDiscountsTests.debug.xcconfig */,
+				863FA6821E1A82FB0A968AC7 /* Pods-TheaterDiscountsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A0301662389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscounts" */;
 			buildPhases = (
+				ECE4397BD2E0400CBB2E2F84 /* [CP] Check Pods Manifest.lock */,
 				9A0301382389B1C6002AA163 /* Sources */,
 				9A0301392389B1C6002AA163 /* Frameworks */,
 				9A03013A2389B1C6002AA163 /* Resources */,
@@ -152,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A0301692389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscountsTests" */;
 			buildPhases = (
+				52AF082F2B1ED45981392C13 /* [CP] Check Pods Manifest.lock */,
 				9A03014E2389B1C7002AA163 /* Sources */,
 				9A03014F2389B1C7002AA163 /* Frameworks */,
 				9A0301502389B1C7002AA163 /* Resources */,
+				738B4DEB0872DF1AB81A3985 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A03016C2389B1C8002AA163 /* Build configuration list for PBXNativeTarget "TheaterDiscountsUITests" */;
 			buildPhases = (
+				DA091E17BD2C0D23BADB3CBB /* [CP] Check Pods Manifest.lock */,
 				9A0301592389B1C8002AA163 /* Sources */,
 				9A03015A2389B1C8002AA163 /* Frameworks */,
 				9A03015B2389B1C8002AA163 /* Resources */,
@@ -234,6 +318,7 @@
 			files = (
 				9A03014C2389B1C7002AA163 /* LaunchScreen.storyboard in Resources */,
 				9A0301492389B1C7002AA163 /* Assets.xcassets in Resources */,
+				9A5895F5238C093A006D95DE /* discount.json in Resources */,
 				9A0301472389B1C6002AA163 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +339,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52AF082F2B1ED45981392C13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheaterDiscountsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738B4DEB0872DF1AB81A3985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheaterDiscountsTests/Pods-TheaterDiscountsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheaterDiscountsTests/Pods-TheaterDiscountsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheaterDiscountsTests/Pods-TheaterDiscountsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA091E17BD2C0D23BADB3CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheaterDiscounts-TheaterDiscountsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE4397BD2E0400CBB2E2F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheaterDiscounts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A0301382389B1C6002AA163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A0301442389B1C6002AA163 /* ViewController.swift in Sources */,
+				9A589600238C1D75006D95DE /* DiscountManager.swift in Sources */,
+				9A589602238C1DFE006D95DE /* WeekDay.swift in Sources */,
 				9A0301402389B1C6002AA163 /* AppDelegate.swift in Sources */,
 				9A0301422389B1C6002AA163 /* SceneDelegate.swift in Sources */,
+				9A5895F7238C1CEE006D95DE /* Student.swift in Sources */,
+				9A5895F9238C1D23006D95DE /* Elder.swift in Sources */,
+				9A5895FB238C1D31006D95DE /* Child.swift in Sources */,
+				9A5895FD238C1D48006D95DE /* Client.swift in Sources */,
+				9A589604238C1E29006D95DE /* DiscountFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +610,7 @@
 		};
 		9A0301672389B1C8002AA163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE179CA7D10F0EA59D746B7 /* Pods-TheaterDiscounts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +629,7 @@
 		};
 		9A0301682389B1C8002AA163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C299C2CAF260D157F0839F /* Pods-TheaterDiscounts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +648,7 @@
 		};
 		9A03016A2389B1C8002AA163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F1626DF04271C88D5F54FE /* Pods-TheaterDiscountsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +671,7 @@
 		};
 		9A03016B2389B1C8002AA163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863FA6821E1A82FB0A968AC7 /* Pods-TheaterDiscountsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +694,7 @@
 		};
 		9A03016D2389B1C8002AA163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8043BB94FAEE1F8ABB763C5 /* Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +715,7 @@
 		};
 		9A03016E2389B1C8002AA163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE10275AE984A8D71842B0A /* Pods-TheaterDiscounts-TheaterDiscountsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
