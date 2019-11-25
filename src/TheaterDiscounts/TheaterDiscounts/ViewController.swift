@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         discountManager = DiscountManager(currentDate: datePicker.date, discountFinder: DiscountFinder())
-        
+        setupScreen()
         // Do any additional setup after loading the view.
     }
     

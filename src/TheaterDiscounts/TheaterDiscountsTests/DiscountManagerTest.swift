@@ -22,7 +22,7 @@ class DiscountManagerTest: QuickSpec {
                 }
                 
                     it("should give 35percent discount to a student with a card"){
-                        expect(discountManager.calculateDiscountTo(client: Student(hasCard: true))).to(equal(4))
+                        expect(discountManager.calculateDiscountTo(client: Student(hasCard: true))).to(equal(5.2))
                     }
                 
                 it("should not give compound discount to a student with a card"){
@@ -40,8 +40,8 @@ class DiscountManagerTest: QuickSpec {
                     expect(discountManager.calculateDiscountTo(client: Elder())).to(equal(5.7))
                 }
                 
-                it("shoud give discount to students with a card"){
-                expect(discountManager.calculateDiscountTo(client: Student(hasCard: true))).to(equal(4))
+                it("shoud not give discount to students with a card"){
+                expect(discountManager.calculateDiscountTo(client: Student(hasCard: true))).to(equal(8))
                 }
             }
         }

@@ -36,7 +36,7 @@ class DiscountManager : DiscountManagerProtocol {
            }
           
            if let student = client as? Student {
-              return checkIfShouldGiveEspecialDiscountToStudent(discountValue: discountValue, student: student)
+            return checkIfShouldGiveEspecialDiscountToStudent(discountValue: discountValue, student: student, weekDay: weekDay!)
            }
            
            return applyDiscount(value: client.pricePerTicket(), discountValue: discountValue)
@@ -50,9 +50,9 @@ class DiscountManager : DiscountManagerProtocol {
         return value - discount
     }
     
-    private func checkIfShouldGiveEspecialDiscountToStudent(discountValue : Double,student : Student)->Double{
-        if student.hasCard && discountValue < 0.5 {
-            return applyDiscount(value: student.pricePerTicket(), discountValue: 0.5)
+    private func checkIfShouldGiveEspecialDiscountToStudent(discountValue : Double,student : Student,weekDay: Weekday)->Double{
+        if student.hasCard && weekDay != Weekday.saturday && weekDay != Weekday.sunday {
+            return applyDiscount(value: student.pricePerTicket(), discountValue: 0.35)
         } else {
             return applyDiscount(value: student.pricePerTicket(), discountValue: discountValue)
         }
