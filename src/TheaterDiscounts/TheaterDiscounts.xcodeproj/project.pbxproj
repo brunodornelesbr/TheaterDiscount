@@ -16,7 +16,7 @@
 		9A0301472389B1C6002AA163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0301452389B1C6002AA163 /* Main.storyboard */; };
 		9A0301492389B1C7002AA163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0301482389B1C7002AA163 /* Assets.xcassets */; };
 		9A03014C2389B1C7002AA163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A03014A2389B1C7002AA163 /* LaunchScreen.storyboard */; };
-		9A0301572389B1C7002AA163 /* TheaterDiscountsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */; };
+		9A0301572389B1C7002AA163 /* DiscountManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301562389B1C7002AA163 /* DiscountManagerTest.swift */; };
 		9A0301622389B1C8002AA163 /* TheaterDiscountsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */; };
 		9A5895F5238C093A006D95DE /* discount.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A5895F4238C093A006D95DE /* discount.json */; };
 		9A5895F7238C1CEE006D95DE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895F6238C1CEE006D95DE /* Student.swift */; };
@@ -26,6 +26,7 @@
 		9A589600238C1D75006D95DE /* DiscountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5895FF238C1D75006D95DE /* DiscountManager.swift */; };
 		9A589602238C1DFE006D95DE /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A589601238C1DFE006D95DE /* WeekDay.swift */; };
 		9A589604238C1E29006D95DE /* DiscountFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A589603238C1E29006D95DE /* DiscountFinder.swift */; };
+		9A589606238C2034006D95DE /* DiscountFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A589605238C2034006D95DE /* DiscountFinderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,7 @@
 		9A03014B2389B1C7002AA163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A03014D2389B1C7002AA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A0301522389B1C7002AA163 /* TheaterDiscountsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterDiscountsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterDiscountsTests.swift; sourceTree = "<group>"; };
+		9A0301562389B1C7002AA163 /* DiscountManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountManagerTest.swift; sourceTree = "<group>"; };
 		9A0301582389B1C7002AA163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A03015D2389B1C8002AA163 /* TheaterDiscountsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheaterDiscountsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0301612389B1C8002AA163 /* TheaterDiscountsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterDiscountsUITests.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		9A5895FF238C1D75006D95DE /* DiscountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountManager.swift; sourceTree = "<group>"; };
 		9A589601238C1DFE006D95DE /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
 		9A589603238C1E29006D95DE /* DiscountFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountFinder.swift; sourceTree = "<group>"; };
+		9A589605238C2034006D95DE /* DiscountFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountFinderTests.swift; sourceTree = "<group>"; };
 		ABE179CA7D10F0EA59D746B7 /* Pods-TheaterDiscounts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscounts.debug.xcconfig"; path = "Target Support Files/Pods-TheaterDiscounts/Pods-TheaterDiscounts.debug.xcconfig"; sourceTree = "<group>"; };
 		C5E66B456926471834075A09 /* Pods_TheaterDiscounts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheaterDiscounts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8043BB94FAEE1F8ABB763C5 /* Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheaterDiscounts-TheaterDiscountsUITests/Pods-TheaterDiscounts-TheaterDiscountsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,8 +160,9 @@
 		9A0301552389B1C7002AA163 /* TheaterDiscountsTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A0301562389B1C7002AA163 /* TheaterDiscountsTests.swift */,
+				9A0301562389B1C7002AA163 /* DiscountManagerTest.swift */,
 				9A0301582389B1C7002AA163 /* Info.plist */,
+				9A589605238C2034006D95DE /* DiscountFinderTests.swift */,
 			);
 			path = TheaterDiscountsTests;
 			sourceTree = "<group>";
@@ -447,7 +450,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0301572389B1C7002AA163 /* TheaterDiscountsTests.swift in Sources */,
+				9A589606238C2034006D95DE /* DiscountFinderTests.swift in Sources */,
+				9A0301572389B1C7002AA163 /* DiscountManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

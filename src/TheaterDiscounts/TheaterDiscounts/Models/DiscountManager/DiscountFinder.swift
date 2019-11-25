@@ -16,7 +16,7 @@ class DiscountFinder : DiscountFinderProtocol {
     func getDiscounts() -> [String : Any] {
         return discounts
     }
-    var discounts = [String : Any]()
+   private var discounts = [String : Any]()
     
     init() {
         loadDiscounts()
