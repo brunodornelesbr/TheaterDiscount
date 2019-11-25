@@ -1,0 +1,37 @@
+
+{"monday" : [{
+"child" : 0.10,
+"student" : 0.10,
+"elder" : 0.10
+}],
+"tuesday" : [{
+"child" : 0.15,
+"student" : 0.05,
+"elder" : 0.15
+}],
+"wednesday" : [{
+"child" : 0.3,
+"student" : 0.5,
+"elder" : 0.4
+}],
+"thursday" : [{
+"child" : 0.0,
+"student" : 0.3,
+"elder" : 0.3
+}],
+"friday" : [{
+"child" : 0.11,
+"student" : 0.0,
+"elder" : 0.0
+}],
+"saturday" : [{
+"child" : 0.0,
+"student" : 0.0,
+"elder" : 0.05
+}],
+"sunday" : [{
+"child" : 0.0,
+"student" : 0.0,
+"elder" : 0.05
+}]
+}
